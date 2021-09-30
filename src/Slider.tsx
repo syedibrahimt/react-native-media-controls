@@ -86,14 +86,14 @@ const Slider = (props: Props) => {
           minimumTrackTintColor={mainColor}
         />
       </View>
-      {Boolean(onFullScreen) && (
+      {/* {Boolean(onFullScreen) && (
         <TouchableOpacity
           style={styles.fullScreenContainer}
           onPress={onFullScreen}
         >
           <Image source={fullScreenImage} />
         </TouchableOpacity>
-      )}
+      )} */}
     </View>
   );
 };
