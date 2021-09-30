@@ -26,14 +26,14 @@ type Props = Pick<
   customSliderStyle?: CustomSliderStyle;
 };
 
-const fullScreenImage = require("./assets/ic_fullscreen.png");
+// const fullScreenImage = require("./assets/ic_fullscreen.png");
 
 const Slider = (props: Props) => {
   const {
     customSliderStyle,
     duration,
     mainColor,
-    onFullScreen,
+    // onFullScreen,
     onPause,
     progress,
   } = props;
