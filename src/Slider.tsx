@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity, View, Text, Image, ViewStyle } from "react-native";
+import { View, Text, ViewStyle } from "react-native";
 import RNSlider from "react-native-slider";
 import styles from "./MediaControls.style";
 import { humanizeVideoDuration } from "./utils";
